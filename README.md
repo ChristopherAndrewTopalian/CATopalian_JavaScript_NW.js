@@ -118,7 +118,7 @@ index.html - we save this in ourFirstApp folder
 </html>
 ```
 
-style001.css- we save this in  ourFirstApp, src, css
+### ourFirstApp/src/css/style001.css
 ```css
 /* style001.css */
 
@@ -134,7 +134,7 @@ button
 }
 ```
 
-ourFirstApp/src/js/1shortcuts/shortcuts.js
+### ourFirstApp/src/js/1shortcuts/shortcuts.js
 ```javascript
 // shortcuts.js
 
@@ -163,7 +163,7 @@ function cl(whichMessage)
 }
 ```
 
-ourFirstApp/src/js/4make/makeInterface.js
+### ourFirstApp/src/js/4make/makeInterface.js
 ```javascript
 // makeInterface.js
 
@@ -222,7 +222,7 @@ function makeInterface()
 }
 ```
 
-ourFirstApp/src/js/email/sendEmail.js
+### ourFirstApp/src/js/email/sendEmail.js
 ```javascript
 const nodemailer = require('nodemailer');
 
@@ -260,7 +260,7 @@ function sendEmail()
 }
 ```
 
-ourFirstApp/src/js/memory/getFreeRam.js
+### ourFirstApp/src/js/memory/getFreeRam.js
 ```javascript
 // getFreeRam.js
 
@@ -277,7 +277,7 @@ function getFreeRam()
 }
 ```
 
-ourFirstApp/src/js/whenLoaded/whenLoaded.js
+### ourFirstApp/src/js/whenLoaded/whenLoaded.js
 ```javascript
 // whenLoaded.js
 
