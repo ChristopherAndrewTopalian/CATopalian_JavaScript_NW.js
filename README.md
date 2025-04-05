@@ -222,7 +222,7 @@ function makeInterface()
 }
 ```
 
-sendEmail.js - save this in src/js/memory
+src/js/email/sendEmail.js
 ```javascript
 const nodemailer = require('nodemailer');
 
@@ -260,7 +260,7 @@ function sendEmail()
 }
 ```
 
-getFreeRam.js - we save this in ourFirstApp/src/js/memory
+ourFirstApp/src/js/memory/getFreeRam.js
 ```javascript
 // getFreeRam.js
 
