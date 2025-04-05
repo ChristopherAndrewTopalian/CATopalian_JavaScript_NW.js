@@ -134,7 +134,7 @@ button
 }
 ```
 
-shortcuts.js - we save this in ourFirstApp, src, js
+shortcuts.js - we save this in ourFirstApp/src/js/1shortcuts
 ```javascript
 // shortcuts.js
 
@@ -163,7 +163,7 @@ function cl(whichMessage)
 }
 ```
 
-makeInterface.js - we save this in ourFirstApp, src, js
+makeInterface.js - we save this in ourFirstApp/src/js/4make
 ```javascript
 // makeInterface.js
 
@@ -220,7 +220,10 @@ function makeInterface()
     };
     ba(sendEmailButton);
 }
+```
 
+sendEmail.js - save this in src/js/memory
+```javascript
 const nodemailer = require('nodemailer');
 
 function sendEmail()
@@ -257,7 +260,7 @@ function sendEmail()
 }
 ```
 
-getFreeRam.js - we save this in ourFirstApp, src, js
+getFreeRam.js - we save this in ourFirstApp/src/js/memory
 ```javascript
 // getFreeRam.js
 
