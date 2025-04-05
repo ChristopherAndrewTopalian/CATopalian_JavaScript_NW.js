@@ -118,6 +118,8 @@ index.html - we save this in ourFirstApp folder
 </html>
 ```
 
+---
+
 ### ourFirstApp/src/css/style001.css
 ```css
 /* style001.css */
@@ -133,6 +135,8 @@ button
     height: 25px;
 }
 ```
+
+---
 
 ### ourFirstApp/src/js/1shortcuts/shortcuts.js
 ```javascript
@@ -162,6 +166,8 @@ function cl(whichMessage)
     return result;
 }
 ```
+
+---
 
 ### ourFirstApp/src/js/4make/makeInterface.js
 ```javascript
@@ -222,6 +228,8 @@ function makeInterface()
 }
 ```
 
+---
+
 ### ourFirstApp/src/js/email/sendEmail.js
 ```javascript
 const nodemailer = require('nodemailer');
@@ -260,6 +268,8 @@ function sendEmail()
 }
 ```
 
+---
+
 ### ourFirstApp/src/js/memory/getFreeRam.js
 ```javascript
 // getFreeRam.js
@@ -276,6 +286,8 @@ function getFreeRam()
     return freeMemoryAdjusted;
 }
 ```
+
+---
 
 ### ourFirstApp/src/js/whenLoaded/whenLoaded.js
 ```javascript
