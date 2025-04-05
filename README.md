@@ -134,7 +134,7 @@ button
 }
 ```
 
-shortcuts.js - we save this in ourFirstApp/src/js/1shortcuts
+ourFirstApp/src/js/1shortcuts/shortcuts.js
 ```javascript
 // shortcuts.js
 
