@@ -163,7 +163,7 @@ function cl(whichMessage)
 }
 ```
 
-makeInterface.js - we save this in ourFirstApp/src/js/4make
+ourFirstApp/src/js/4make/makeInterface.js
 ```javascript
 // makeInterface.js
 
@@ -222,7 +222,7 @@ function makeInterface()
 }
 ```
 
-src/js/email/sendEmail.js
+ourFirstApp/src/js/email/sendEmail.js
 ```javascript
 const nodemailer = require('nodemailer');
 
@@ -277,7 +277,7 @@ function getFreeRam()
 }
 ```
 
-whenLoaded.js - we save this in ourFirstApp, src, js
+ourFirstApp/src/js/whenLoaded/whenLoaded.js
 ```javascript
 // whenLoaded.js
 
