@@ -332,12 +332,40 @@ Our nw.js app running:
 
 1. Since we are using nodemailer in our project, we must make sure to first install nodemailer using npm.
 2. If we are using an external HD and having issues, then we can Copy ourFirstApp Folder onto our Desktop of our main SSD drive that has node.js on it and then DRAG it onto the nw.exe icon.
+3. To use nodemailer we must go to gmail and set up our account to allow our email to be used by our script.
+
+---
+
+**📝 Setting Up GMAIL for Scripts**
+
+> To allow our  script to send emails using our Gmail account, we'll need to adjust our Gmail security settings. Specifically, we must enable access for external apps:
+>
+> 1. Go to our [Google Account Security Settings](https://myaccount.google.com/security).
+> 2. Turn on **2-Step Verification** if it’s not already on.
+> 3. Then go to the [App Passwords page](https://myaccount.google.com/apppasswords).
+> 4. Generate an **App Password** for "Mail" and the device we're using.
+> 5. Use that generated password in the script instead of our regular Gmail password.
+>
+> This is required because Google blocks basic authentication for security reasons, and App Passwords are the secure method for scripts and automation.
 
 ---
 
 ## Note
 Dragging our project folder onto the nw.exe icon is only used as a quick way to test our project.  
 Later we will turn our project folder into an exe file for easy use.
+
+---
+
+### How to Download this Tutorial
+1. Click the green Code Button on this github page
+2. Choose Download ZIP
+3. Save the Zip File
+4. Extract All
+5. Double click the HTML file to start the App
+
+---
+
+Hapy Scripting :-)
 
 ---
 
